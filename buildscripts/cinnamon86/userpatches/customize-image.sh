@@ -43,7 +43,7 @@ Main() {
 			apt update -y
 			apt install cinnamon cinnamon-control-center cinnamon-screensaver f3 cinnamon-session cinnamon-settings-daemon dconf-gsettings-backend desktop-base gnome-terminal pulseaudio pulseaudio-module-bluetooth pavucontrol muffin nemo xserver-xorg file-roller network-manager-gnome gnome-calculator ghostscript-x libmtp-runtime light-locker vlc neofetch lightdm-gtk-greeter-settings eog xorg lightdm synaptic gdebi htop gnome-icon-theme nemo usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse gedit inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-extra gvfs-backends gvfs-common soundconverter ffmpeg build-essential libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec59 exfalso flac font-manager libjpeg-dev gnome-screenshot gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth dsda-doom freedoom libglx-mesa0 libgl1-mesa-dri dosbox milkytracker cmake chromium -y
 			apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev -y
-			apt install bash-completion alsa-utils apt-utils sudo libcurl4-openssl-dev firmware-sof-signed -y
+			apt install bash-completion alsa-utils apt-utils sudo libcurl4-openssl-dev firmware-sof-signed alsa-firmware-loaders cifs-utils -y
 			apt autoremove -y
 		        apt purge snapd -y
             		echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref

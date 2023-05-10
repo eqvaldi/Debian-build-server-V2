@@ -43,7 +43,7 @@ Main() {
 		        apt update -y
 		        apt install openbox lxsession lxde-common openbox-lxde-session lxpanel f3 lxappearance lxappearance-obconf xfce4-notifyd xfce4-power-manager xfce4-power-manager-plugins ristretto pavucontrol tumbler mesa-utils gparted xarchiver usb-modeswitch p7zip zip unzip uuid-runtime mesa-utils-extra gvfs-backends gvfs-common inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk pcmanfm lxterminal mousepad file-roller galculator ghostscript-x libmtp-runtime light-locker vlc neofetch lightdm-gtk-greeter-settings xorg lightdm synaptic gdebi htop pulseaudio gnome-disk-utility gnome-icon-theme soundconverter network-manager-gnome ffmpeg build-essential libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec59 exfalso flac font-manager libjpeg-dev xfce4-screenshooter gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth dsda-doom freedoom libglx-mesa0 libgl1-mesa-dri dosbox milkytracker cmake chromium -y
 			apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev -y
-			apt install bash-completion alsa-utils apt-utils sudo libcurl4-openssl-dev firmware-sof-signed -y
+			apt install bash-completion alsa-utils apt-utils sudo libcurl4-openssl-dev firmware-sof-signed alsa-firmware-loaders cifs-utils -y
 			apt autoremove -y
 		        apt purge snapd -y
             		echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref
