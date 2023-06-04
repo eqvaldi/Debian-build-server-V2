@@ -29,3 +29,4 @@ cd ./build
 ./edge.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/EDGE/
+chown $USER -R img/*/*/images --verbose

@@ -29,3 +29,4 @@ cd ./build
 ./cinnamon.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/ARM/
+chown $USER -R img/*/*/images --verbose

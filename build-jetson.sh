@@ -29,3 +29,4 @@ cd ./build
 ./jetson.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/JETSON/
+chown $USER -R img/*/*/images --verbose
