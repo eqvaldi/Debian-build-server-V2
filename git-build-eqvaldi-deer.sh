@@ -1,42 +1,4 @@
 #!/bin/bash
-mkdir img
-cd img/
-mkdir xfce
-cd xfce/
-mkdir EDGE
-mkdir X86
-mkdir ARM
-mkdir JETSON
-cd ..
-mkdir lxde
-cd lxde/
-mkdir EDGE
-mkdir X86
-mkdir ARM
-mkdir JETSON
-cd ..
-mkdir mate
-cd mate/
-mkdir EDGE
-mkdir X86
-mkdir ARM
-mkdir JETSON
-cd ..
-mkdir cinnamon
-cd cinnamon/
-mkdir EDGE
-mkdir X86
-mkdir ARM
-mkdir JETSON
-cd ..
-mkdir server
-cd server/
-mkdir EDGE
-mkdir X86
-mkdir ARM
-mkdir JETSON
-cd ..
-cd ..
 git clone https://github.com/Eqvaldi-deer/build.git
 cp ./buildscripts/compress.sh ./img
 cp ./buildscripts/bld-boards.sh ./build

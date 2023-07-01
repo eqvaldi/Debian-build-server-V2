@@ -29,4 +29,3 @@ cd ./build
 ./x86.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/X86/
-chown $USER -R img/*/*/images --verbose
