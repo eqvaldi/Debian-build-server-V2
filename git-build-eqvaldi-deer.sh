@@ -10,9 +10,7 @@ chmod +x ./build/bld-boards.sh
 chmod +x ./build/cinnamon.sh
 chmod +x ./build/x86.sh
 chmod +x ./build/edge.sh
-chmod +x ./build/jetson.sh
 chmod +x ./build-86.sh
 chmod +x ./build-all.sh
 chmod +x ./build-arm.sh
 chmod +x ./build-edge.sh
-chmod +x ./build-jetson.sh
