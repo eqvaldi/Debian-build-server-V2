@@ -1,4 +1,4 @@
 #!/bin/bash
-./build-86.sh
-./build-edge.sh
-./build-arm.sh
+bash ./build-86.sh
+bash ./build-edge.sh
+bash ./build-arm.sh
