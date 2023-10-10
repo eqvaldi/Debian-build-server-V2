@@ -1,6 +1,5 @@
 #!/bin/bash
 git clone https://github.com/Eqvaldi-deer/build.git
-cp ./buildscripts/compress.sh ./img
 cp ./buildscripts/bld-boards.sh ./build
 cp ./buildscripts/cinnamon.sh ./build
 cp ./buildscripts/x86.sh ./build
