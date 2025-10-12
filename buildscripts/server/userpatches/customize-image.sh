@@ -52,7 +52,7 @@ Main() {
 			;;
 		trixie)
 			apt update -y
-			apt install xfce4 xfce4-terminal file-roller numix-icon-theme f3 network-manager-gnome libmtp-runtime light-locker hyfetch lightdm-gtk-greeter-settings xorg lightdm htop gnome-icon-theme usb-modeswitch genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk transmission-gtk xfce4-notifyd xfce4-power-manager xfce4-whiskermenu-plugin xfce4-power-manager-plugins mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime thunar-archive-plugin mesa-utils-bin gvfs-backends gvfs-common libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 flac libjpeg-dev xfce4-screenshooter thunar-archive-plugin gufw libglx-mesa0 libgl1-mesa-dri chromium -y
+			apt install xfce4 xfce4-terminal file-roller orchis-gtk-theme numix-icon-theme f3 network-manager-gnome libmtp-runtime light-locker hyfetch lightdm-gtk-greeter-settings xorg lightdm htop gnome-icon-theme usb-modeswitch genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk transmission-gtk xfce4-notifyd xfce4-power-manager xfce4-whiskermenu-plugin xfce4-power-manager-plugins mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime thunar-archive-plugin mesa-utils-bin gvfs-backends gvfs-common libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 flac libjpeg-dev xfce4-screenshooter thunar-archive-plugin gufw libglx-mesa0 libgl1-mesa-dri chromium -y
 			apt install bash-completion alsa-utils apt-utils sudo alsa-firmware-loaders cifs-utils vainfo vdpauinfo pciutils spek bison flex glmark2* -y
 			apt autoremove -y
 		        apt purge snapd -y
@@ -64,7 +64,7 @@ Main() {
 			;;	
    		sid)
 			apt update -y
-			apt install xfce4 xfce4-terminal file-roller numix-icon-theme f3 network-manager-gnome libmtp-runtime light-locker hyfetch lightdm-gtk-greeter-settings xorg lightdm htop gnome-icon-theme usb-modeswitch genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk transmission-gtk xfce4-notifyd xfce4-power-manager xfce4-whiskermenu-plugin xfce4-power-manager-plugins mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime thunar-archive-plugin mesa-utils-bin gvfs-backends gvfs-common libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 flac libjpeg-dev xfce4-screenshooter thunar-archive-plugin gufw libglx-mesa0 libgl1-mesa-dri chromium -y
+			apt install xfce4 xfce4-terminal file-roller orchis-gtk-theme numix-icon-theme f3 network-manager-gnome libmtp-runtime light-locker hyfetch lightdm-gtk-greeter-settings xorg lightdm htop gnome-icon-theme usb-modeswitch genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk transmission-gtk xfce4-notifyd xfce4-power-manager xfce4-whiskermenu-plugin xfce4-power-manager-plugins mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime thunar-archive-plugin mesa-utils-bin gvfs-backends gvfs-common libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 flac libjpeg-dev xfce4-screenshooter thunar-archive-plugin gufw libglx-mesa0 libgl1-mesa-dri chromium -y
 			apt install bash-completion alsa-utils apt-utils sudo alsa-firmware-loaders cifs-utils vainfo vdpauinfo pciutils spek bison flex glmark2* -y
 			apt autoremove -y
 		        apt purge snapd -y
