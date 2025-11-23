@@ -7,8 +7,8 @@ mkdir EDGE
 mkdir X86
 mkdir ARM
 cd ..
-mkdir lxde
-cd lxde
+mkdir lxqt
+cd lxqt
 mkdir EDGE
 mkdir X86
 mkdir ARM

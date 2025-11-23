@@ -6,11 +6,11 @@ cd ./build
 cd ..
 mv ./build/output/images ./img/xfce/ARM/
 rm -rf ./build/userpatches/customize-image.sh
-cp ./buildscripts/lxde/userpatches/customize-image.sh ./build/userpatches/
+cp ./buildscripts/lxqt/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
 ./bld-boards.sh
 cd ..
-mv ./build/output/images ./img/lxde/ARM/
+mv ./build/output/images ./img/lxqt/ARM/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/mate/userpatches/customize-image.sh ./build/userpatches/
 cd ./build

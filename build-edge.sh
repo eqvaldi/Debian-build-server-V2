@@ -6,11 +6,11 @@ cd ./build
 cd ..
 mv ./build/output/images ./img/xfce/EDGE/
 rm -rf ./build/userpatches/customize-image.sh
-cp ./buildscripts/lxde86/userpatches/customize-image.sh ./build/userpatches/
+cp ./buildscripts/lxqt86/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
 ./edge.sh
 cd ..
-mv ./build/output/images ./img/lxde/EDGE/
+mv ./build/output/images ./img/lxqt/EDGE/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/mate86/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
