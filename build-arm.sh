@@ -1,4 +1,8 @@
 #!/bin/bash
+cd ./build
+./bld-boards.sh
+cd ..
+mv ./build/output/images ./img/minimal/ARM/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/xfce/userpatches/customize-image.sh ./build/userpatches/
 cd ./build

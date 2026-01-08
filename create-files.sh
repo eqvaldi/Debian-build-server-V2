@@ -1,6 +1,12 @@
 #!/bin/bash
 mkdir img
 cd img
+mkdir minimal
+cd minimal
+mkdir EDGE
+mkdir X86
+mkdir ARM
+cd ..
 mkdir xfce
 cd xfce
 mkdir EDGE

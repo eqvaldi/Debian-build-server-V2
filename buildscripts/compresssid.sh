@@ -1,4 +1,14 @@
 #!/bin/bash
+cd ./minimal/ARM/images
+find . -type f -name "*.img" -exec 7z a {}.7z {} \;
+cd ..
+cd ..
+cd ..
+cd ./minimal/X86/images
+find . -type f -name "*.img" -exec 7z a {}.7z {} \;
+cd ..
+cd ..
+cd ..
 cd ./cinnamon/ARM/images
 find . -type f -name "*.img" -exec 7z a {}.7z {} \;
 cd ..

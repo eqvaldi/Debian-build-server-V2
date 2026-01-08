@@ -1,4 +1,8 @@
 #!/bin/bash
+cd ./build
+./edge.sh
+cd ..
+mv ./build/output/images ./img/minimal/EDGE/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/xfce86/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
