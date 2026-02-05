@@ -59,3 +59,13 @@ find . -type f -name "*.img" -exec 7z a {}.7z {} \;
 cd ..
 cd ..
 cd ..
+cd ./KDE/ARM/images
+find . -type f -name "*.img" -exec 7z a {}.7z {} \;
+cd ..
+cd ..
+cd ..
+cd ./KDE/X86/images
+find . -type f -name "*.img" -exec 7z a {}.7z {} \;
+cd ..
+cd ..
+cd ..
