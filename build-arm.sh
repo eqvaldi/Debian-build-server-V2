@@ -33,3 +33,10 @@ cd ./build
 ./cinnamon.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/ARM/
+rm -rf ./build/userpatches/customize-image.sh
+cp ./buildscripts/KDE/userpatches/customize-image.sh ./build/userpatches/
+cd ./build
+./kde.sh
+cd ..
+mv ./build/output/images ./img/KDE/ARM/
+rm -rf ./build/userpatches/customize-image.sh

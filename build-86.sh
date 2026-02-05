@@ -33,3 +33,10 @@ cd ./build
 ./x86.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/X86/
+rm -rf ./build/userpatches/customize-image.sh
+cp ./buildscripts/KDE86/userpatches/customize-image.sh ./build/userpatches/
+cd ./build
+./x86.sh
+cd ..
+mv ./build/output/images ./img/KDE/X86/
+rm -rf ./build/userpatches/customize-image.sh

@@ -37,6 +37,12 @@ mkdir EDGE
 mkdir X86
 mkdir ARM
 cd ..
+mkdir KDE
+cd KDE
+mkdir EDGE
+mkdir X86
+mkdir ARM
+cd ..
 cd ..
 cp ./buildscripts/compress.sh ./img
 cp ./buildscripts/compresssid.sh ./img

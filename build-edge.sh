@@ -33,3 +33,10 @@ cd ./build
 ./edge.sh
 cd ..
 mv ./build/output/images ./img/cinnamon/EDGE/
+rm -rf ./build/userpatches/customize-image.sh
+cp ./buildscripts/KDE86/userpatches/customize-image.sh ./build/userpatches/
+cd ./build
+./edge.sh
+cd ..
+mv ./build/output/images ./img/KDE/EDGE/
+rm -rf ./build/userpatches/customize-image.sh
